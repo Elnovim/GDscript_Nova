@@ -4,5 +4,7 @@
     "organization": "Elnovim",
     "description": "Extension of GDScript (Godot 4) language definition in the Nova IDE",
     "version": "0.1",
-    "categories": ["languages"]
+    "categories": ["languages"],
+    "homepage": "https://github.com/Elnovim/GDscript_Nova",
+    "bugs": "https://github.com/Elnovim/GDscript_Nova/issues",
 }
