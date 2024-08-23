@@ -1,0 +1,8 @@
+{
+    "identifier": "elnovim.GDscript",
+    "name": "GDscript",
+    "organization": "Elnovim",
+    "description": "Extension of GDScript (Godot 4) language definition",
+    "version": "0.1",
+    "categories": ["languages"]
+}

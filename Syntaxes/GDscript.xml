@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<syntax name="gdscript">
+    <meta>
+        <name>gdscript</name>
+        <type>script</type>
+        <preferred-file-extension>gd</preferred-file-extension>
+    </meta>
+
+    <detectors>
+        <extension priority="1.0">gd</extension>
+    </detectors>
+
+    <indentation>
+        <increase>
+            <expression>:[\s]*</expression>
+        </increase>
+        <decrease>
+            <expression></expression>
+        </decrease>
+    </indentation>
+
+    <comments>
+        <single>
+            <expression>#</expression>
+        </single>
+        <multiline>
+            <starts-with>
+                <expression></expression>
+            </starts-with>
+            <ends-with>
+                <expression></expression>
+            </ends-with>
+        </multiline>
+    </comments>
+
+    <injection>
+        <expression></expression>
+    </injection>
+
+    <tree-sitter language="gdscript">
+        <highlights path="highlights.scm" />
+        <folds path="folds.scm" />
+    </tree-sitter>
+</syntax>
