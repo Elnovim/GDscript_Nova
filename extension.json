@@ -2,7 +2,7 @@
     "identifier": "elnovim.GDscript",
     "name": "GDscript",
     "organization": "Elnovim",
-    "description": "Extension of GDScript (Godot 4) language definition",
+    "description": "Extension of GDScript (Godot 4) language definition in the Nova IDE",
     "version": "0.1",
     "categories": ["languages"]
 }
